@@ -2,6 +2,7 @@ import numpy as np
 import cv2
 
 img = cv2.imread('images/cat.jpg', cv2.IMREAD_GRAYSCALE)
+cv2.imshow('image1',img)
 img_out = img.copy()
 
 height = img.shape[0]

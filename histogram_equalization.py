@@ -7,6 +7,8 @@ import cumulative_histogram as ch
 
 img = cv2.imread('images/img1.jpg', cv2.IMREAD_GRAYSCALE)
 
+cv2.imshow('image1',img)
+
 height = img.shape[0]
 width = img.shape[1]
 pixels = width * height

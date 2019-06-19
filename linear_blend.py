@@ -2,7 +2,9 @@ import numpy as np
 import cv2
 
 img1 = cv2.imread('images/cat.jpg', cv2.IMREAD_GRAYSCALE)
+cv2.imshow('image1',img1)
 img2 = cv2.imread('images/lion.jpg', cv2.IMREAD_GRAYSCALE)
+cv2.imshow('image2',img2)
 
 height = img1.shape[0]
 width = img1.shape[1]
